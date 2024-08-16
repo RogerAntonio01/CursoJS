@@ -3,34 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modelos</title>
+    <title>Indice de Massa Corporal</title>
     <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
-</head>
 <body>
 
     <section class="container">
-        <h1>Lorem ipsum dolor sit, amet consectetur</h1>
+        <h1>Indice de Massa Corporal(IMC)</h1>
         <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae vero ducimus harum explicabo, alias dolor nulla ullam ab velit sunt culpa quos reiciendis sit sint illo, ea deleniti eum! Soluta.
-            
+           Digite seu Peso e altura para saber seu IMC.   
         </p>
         
-        <form action="">
-            <label for="input-test-1">Label test #1</label>
-            <input type="text" id="input-test-1">
-            <label for="input-test-2">Label test #2</label>
-            <input type="password" id="input-test-2">
-            <label for="input-test-3">Label test #3</label>
-            <input type="email" id="input-test-3">
-            <label for="input-test-4">Label test #4</label>
-            <input type="number" id="input-test-4">
-
-            <button>Enviar</button>
+        <form action="/" class="formulario" method="post">
+            <label for="peso">Peso</label>
+            <input type="number" id="peso" name="peso">
+            <label for="altura">Altura</label>
+            <input type="number" id="altura" name="altura">
+            
+            <button type="submit">Enviar</button>
         </form>
-
+        <div class="resultado"></div>
     </section>
     <script src="./assets/js/main.js"></script>
 </body>
