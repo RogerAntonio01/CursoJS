@@ -62,3 +62,16 @@ form button {
 form button:hover {
     background: var(--primary-color-darker);
 }
+
+.resultado {
+    width: 400px;
+    margin: auto;
+    height: 50px;
+    
+    color: black;
+    text-align: center;
+    background: rgb(107, 204, 115);
+    border-radius: 10px;
+    border: 1px black;
+    outline: 1px solid black;
+}
