@@ -44,11 +44,15 @@ h1.innerHTML = data.toLocaleString('pt-BR', { dateStyle: 'full', timeStyle: 'med
 /* --- Tempo com atualizaçao de hora --- */
 const tempo2 = document.querySelector('.container2 h1');
 const tempo3 = document.querySelector('.container3 h1');
+const tempo4 = document.querySelector('.container4 h1');
 
 function updateTime() {
     const data = new Date();
     tempo2.innerHTML = data.toLocaleString('pt-BR', { dateStyle: 'full', timeStyle: 'medium'});
     tempo3.innerHTML = data.toLocaleString();
+    tempo4.innerHTML = data.toLocaleString('pt-BR', {timeStyle: 'medium'});
+    tempo4.style.textAlign = 'center'; 
+    tempo4.style.fontSize = '100px'; 
 }
 
 // Atualiza o tempo a cada segundo (1000 milissegundos)
