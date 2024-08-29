@@ -1,11 +1,11 @@
 const nome = 'Luiz';
 
-functio falaNome() {
+function falaNome() {
     console.log(nome);
 }
 
 function usaFalaNome() {
-    cons nome = 'Otavio';
+    const nome = 'Otavio';
     falaNome();
 }
 usaFalaNome();
