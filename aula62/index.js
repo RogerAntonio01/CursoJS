@@ -20,7 +20,7 @@ nomes3.unshift('Joao'); // adiciona um item no começo do array
 nomes3.unshift('Wallace'); // adiciona um item no começo do array
 console.log(nomes3);
 
-
+['Roger', 'Andre', 'Izabel'];
 
 const nomes4 = ['Roger', 'Andre', 'Izabel', 'Vitor' , 'Anny'];
 const novo = nomes4.slice(1, -2); // exclui o primero e os dois ultimos itens do array
