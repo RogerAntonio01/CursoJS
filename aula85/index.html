@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <section class="container">
+        <h1>Formulário de Cadestro</h1>
+        <ul>
+            <li>Nenhum campo pode estar vazio</li>
+            <li>Usuário só poderá conter letras ou numeros</li>
+            <li>Nome de usuário deverá ter entre 3 e 12 caracteres</li>
+            <li>Senha precisa ter entre 6 e 12 caracteres</li>
+        </ul> 
+        
+        <form action="/" method="post"  class="formulario">
+            <label >Nome</label>
+            <input type="text" class="nome validar">
+            <label >Sobrenome</label>
+            <input type="text" class="sobrenome validar">
+            <label >CPF</label>
+            <input type="text" class="cpf validar">
+            <label >Usuario</label>
+            <input type="text" class="Usuario validar">
+            <label >Senha</label>
+            <input type="password" class="senha validar">
+            <label >Repetir Senha</label>
+            <input type="password" class="repetirSenha validar">
+           
+
+            <button type="submit">Enviar</button>
+        </form>
+
+    </section>
+    <script src="./assets/js/validaCPF.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
