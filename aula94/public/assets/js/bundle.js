@@ -1,6 +1,2 @@
-/******/ (() => { // webpackBootstrap
-/******/ 	"use strict";
-/******/ 	
-/******/ 	
-/******/ })()
-;
+console.log("EIIIIIIIIIIIIIIIIIIIIIII");
+//# sourceMappingURL=bundle.js.map
