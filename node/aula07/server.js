@@ -7,10 +7,16 @@ const app = express();
 //         POST    GET   PUT       DELETE
 
 app.get('/', (req, res) => {
-    res.send('<form action= "/" method="POST"> Nome: <input type="text" name =""><button>Enviar</button></form>'); 
+    res.send('<form action= "/" method="POST"> Nome do cliente: <input type="text" name =""><button>Enviar</button></form>'); 
 });
 
-app.post('/contato', (req, res) => {
+
+
+app.post('/', (req, res) => {
+    res.send('Recebi o formulario');
+});
+
+app.get('/contato', (req, res) => {
     res.send('Obrigado por entrar em contato com a gente.');
 });
 
